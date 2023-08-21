@@ -26,31 +26,21 @@ print("2. Subtract")
 print("3. Multiply")
 print("4. Divide")
 
-operation = input("Select an operation (1/2/3/4): ")
+operation = input("Select an operation (ADD/SUB/MULT/DIV): ")
 
 num1 = float(input("Enter the first number: "))
 num2 = float(input("Enter the second number: "))
 
-if operation == '1':
+if operation == 'ADD':
     print("Result:", add(num1, num2))
-elif operation == '2':
+elif operation == 'SUB':
     print("Result:", subtract(num1, num2))
-elif operation == '3':
+elif operation == 'MULT':
     print("Result:", multiply(num1, num2))
-elif operation == '4':
+elif operation == 'DIV':
     print("Result:", divide(num1, num2))
 else:
     print("Invalid operation")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
