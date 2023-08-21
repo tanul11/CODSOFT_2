@@ -42,5 +42,3 @@ elif operation == 'DIV':
 else:
     print("Invalid operation")
 
-
-
